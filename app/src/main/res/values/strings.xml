@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Calculatrice</string>
+    <string name="case_vide">Veuillez entrer un nombre.</string>
+    <string name="bouton_calcul">=</string>
+    <string name="resultCalcul">Résultat final.</string>
+</resources>
