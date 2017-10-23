@@ -29,31 +29,36 @@
         android:layout_width="match_parent"
         android:layout_weight="1"
         android:orientation="horizontal"
+        android:id="@+id/radioGroup"
         >
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=" +"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:id="@+id/addition"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=" -"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:id="@+id/soustraction"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=" x"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:id="@+id/multiplication"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=" %"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:id="@+id/division"/>
 
     </RadioGroup>
 
@@ -61,7 +66,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/bouton_calcul"
-        android:onClick="calcul()"
+        android:onClick="calcul"
         />
 
     <TextView
@@ -69,5 +74,6 @@
         android:layout_height="wrap_content"
         android:text="@string/resultCalcul"
         android:layout_weight="3"
-        android:gravity="center_vertical"/>
+        android:gravity="center_vertical"
+        android:id="@+id/resultat"/>
 </LinearLayout>
